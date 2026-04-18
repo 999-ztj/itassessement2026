@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsenal - ZTJENITH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="ticker-bar">
+        <div class="ticker-text">WANTED: ZTJENITH — RANK 88 — TITLE: RAINMAKER — 1,778 KILLS — 1,303 COPS KILLED — FAVOURITE WEAPON: SPECIAL CARBINE MK II — 1,300 HEADSHOTS — 73% HEADSHOT RATE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WANTED: ZTJENITH — RANK 88 — TITLE: RAINMAKER — 1,778 KILLS — 1,303 COPS KILLED — FAVOURITE WEAPON: SPECIAL CARBINE MK II — 1,300 HEADSHOTS — 73% HEADSHOT RATE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-wrap">
+            <div class="site-logo">
+                ZTJENITH
+                <span>GTA Online Chronicle</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="character.html">Character</a></li>
+                <li><a href="arsenal.html" class="active">Arsenal</a></li>
+                <li><a href="garage.html">Garage</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-top">
+        <div class="container">
+            <div class="tag">Weapons &amp; Combat</div>
+            <h1>Arsenal</h1>
+            <p>1,778 kills. 1,300 headshots. 73% headshot rate.</p>
+        </div>
+    </div>
+
+    <!-- Local navigation (requirement: local nav) -->
+    <nav class="local-nav">
+        <a href="#main-weapon">Main Weapon</a>
+        <a href="#combat-stats">Combat Stats</a>
+        <a href="#loadout">Loadout Table</a>
+    </nav>
+
+    <main>
+
+        <!-- Featured weapon -->
+        <section id="main-weapon" class="section">
+            <div class="container">
+                <div class="section-label">Favourite Weapon</div>
+                <div class="section-title">Special Carbine MK II</div>
+                <div class="divider"></div>
+
+                <div class="weapon-card">
+
+                    <!-- Weapon image box -->
+                    <div class="weapon-img-box">
+                        <img src="images/arsenal/carbine.jpg" alt="Special Carbine MK II — my main weapon in GTA Online" onerror="this.style.display='none'; document.getElementById('weaponEmpty').style.display='flex'">
+                        <div id="weaponEmpty" class="weapon-empty" style="display:none;">
+                            <span>🔫</span>
+                            <p>Add carbine.jpg to images/arsenal/</p>
+                        </div>
+                        <div class="weapon-badge">PRIMARY</div>
+                    </div>
+
+                    <!-- Weapon info -->
+                    <div>
+                        <div class="weapon-name">Special Carbine MK II</div>
+                        <div class="weapon-type">Assault Rifle — Customised</div>
+
+                        <!-- Stat bars for weapon -->
+                        <div class="skills-grid" style="grid-template-columns:1fr; margin-bottom:24px;">
+                            <div>
+                                <div class="skill-item">
+                                    <div class="skill-top"><span>Damage</span><span class="skill-pct">78%</span></div>
+                                    <div class="skill-track"><div class="skill-bar red-bar" style="width:78%"></div></div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-top"><span>Fire Rate</span><span class="skill-pct">85%</span></div>
+                                    <div class="skill-track"><div class="skill-bar" style="width:85%"></div></div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-top"><span>Accuracy</span><span class="skill-pct">80%</span></div>
+                                    <div class="skill-track"><div class="skill-bar green-bar" style="width:80%"></div></div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-top"><span>Range</span><span class="skill-pct">70%</span></div>
+                                    <div class="skill-track"><div class="skill-bar blue-bar" style="width:70%"></div></div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-top"><span>Clip Size</span><span class="skill-pct">65%</span></div>
+                                    <div class="skill-track"><div class="skill-bar" style="width:65%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Kill stats -->
+                        <div class="stats-grid" style="grid-template-columns:1fr 1fr;">
+                            <div class="stat-card"><div class="value" style="font-size:26px;">1,778</div><div class="label">Total Kills</div></div>
+                            <div class="stat-card green-stat"><div class="value" style="font-size:26px;">1,300</div><div class="label">Headshots</div></div>
+                            <div class="stat-card"><div class="value" style="font-size:26px;">73%</div><div class="label">Headshot Rate</div></div>
+                            <div class="stat-card red-stat"><div class="value" style="font-size:26px;">1,303</div><div class="label">Cops Killed</div></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Combat stats section -->
+        <section id="combat-stats" class="section-dark">
+            <div class="container">
+                <div class="section-label">Combat Overview</div>
+                <div class="section-title">Kill Statistics</div>
+                <div class="divider"></div>
+
+                <div class="stats-grid">
+                    <div class="stat-card"><div class="value">1,778</div><div class="label">Total Kills</div></div>
+                    <div class="stat-card green-stat"><div class="value">1,300</div><div class="label">Headshots</div></div>
+                    <div class="stat-card"><div class="value">73.1%</div><div class="label">Headshot Rate</div></div>
+                    <div class="stat-card red-stat"><div class="value">1,303</div><div class="label">Cops Killed</div></div>
+                </div>
+
+                <div class="note-box gold-note">
+                    <div class="note-title">Analysis</div>
+                    A 73% headshot rate out of 1,778 kills is pretty high. Most players are around 20-30%. My strategy is simple: aim for the head, use the Carbine MK II, and don't miss.
+                </div>
+            </div>
+        </section>
+
+        <!-- Loadout table with colspan and rowspan (requirement #10) -->
+        <section id="loadout" class="section">
+            <div class="container">
+                <div class="section-label">Full Loadout</div>
+                <div class="section-title">Weapon Loadout</div>
+                <div class="divider"></div>
+
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <!-- rowspan keeps "Weapon" header across two rows -->
+                                <th rowspan="2">Weapon</th>
+                                <!-- colspan groups Category and Tier under Classification -->
+                                <th colspan="2">Classification</th>
+                                <th colspan="2">Stats</th>
+                            </tr>
+                            <tr>
+                                <th>Category</th>
+                                <th>Tier</th>
+                                <th>Damage</th>
+                                <th>Role</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-group"><td colspan="5">Primary Weapons</td></tr>
+                            <tr>
+                                <td class="gold-text">Special Carbine MK II ⭐</td>
+                                <td>Assault Rifle</td>
+                                <td class="gold-text">MK II</td>
+                                <td class="gold-text">High</td>
+                                <td class="gold-text">Main — 1,778 kills</td>
+                            </tr>
+
+                            <tr class="table-group"><td colspan="5">Secondary Weapons</td></tr>
+                            <tr>
+                                <td>Sniper Rifle</td>
+                                <td>Sniper</td>
+                                <td>Standard</td>
+                                <td>Very High</td>
+                                <td>Long range targets</td>
+                            </tr>
+                            <tr>
+                                <td>Pistol MK II</td>
+                                <td>Handgun</td>
+                                <td>MK II</td>
+                                <td>Medium</td>
+                                <td>Backup</td>
+                            </tr>
+
+                            <tr class="table-group"><td colspan="5">Heavy Weapons</td></tr>
+                            <tr>
+                                <td>RPG</td>
+                                <td>Launcher</td>
+                                <td>Standard</td>
+                                <td>Extreme</td>
+                                <td>Vehicles &amp; chaos</td>
+                            </tr>
+                            <tr>
+                                <td>Minigun</td>
+                                <td>Heavy</td>
+                                <td>Standard</td>
+                                <td>Extreme</td>
+                                <td>Suppression fire</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="secondary-nav">
+        <a href="index.html">Home</a><a href="character.html">Character</a><a href="arsenal.html">Arsenal</a><a href="garage.html">Garage</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a><a href="sitemap.html">Sitemap</a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="site-logo">ZTJENITH <span>GTA Online Chronicle</span></div>
+                <p>My personal GTA Online stats site. Rank 88, Rainmaker, Grand Order 999.</p>
+                <a href="mailto:contact@ztjenith.com" class="email-link">📧 contact@ztjenith.com</a>
+            </div>
+            <div class="footer-col"><h4>Pages</h4><a href="index.html">Home</a><a href="character.html">Character</a><a href="arsenal.html">Arsenal</a><a href="garage.html">Garage</a></div>
+            <div class="footer-col"><h4>More</h4><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a><a href="sitemap.html">Sitemap</a></div>
+            <div class="footer-col"><h4>External</h4><a href="https://rockstargames.com" target="_blank">Rockstar Games ↗</a><a href="https://socialclub.rockstargames.com" target="_blank">Social Club ↗</a><a href="https://gta.fandom.com" target="_blank">GTA Wiki ↗</a></div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 ZTJENITH | 123 Grove Street, Los Santos | Fan site - not affiliated with Rockstar Games</span>
+            <a href="mailto:contact@ztjenith.com" style="color:#444444;">contact@ztjenith.com</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

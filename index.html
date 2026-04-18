@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZTJENITH - GTA Online Chronicle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scrolling ticker bar at top -->
+    <div class="ticker-bar">
+        <div class="ticker-text">
+            WANTED: ZTJENITH — RANK 88 — TITLE: RAINMAKER — 1,778 KILLS — 1,303 COPS KILLED — 583 VEHICLES STOLEN — CREW: GRAND ORDER 999 — PLAYTIME: 6D 19H 50M — TOTAL EARNED: $28.3M &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WANTED: ZTJENITH — RANK 88 — TITLE: RAINMAKER — 1,778 KILLS — 1,303 COPS KILLED — 583 VEHICLES STOLEN — CREW: GRAND ORDER 999 — PLAYTIME: 6D 19H 50M — TOTAL EARNED: $28.3M &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+    </div>
+
+    <!-- Navigation bar - same on every page (requirement #2) -->
+    <nav class="navbar">
+        <div class="nav-wrap">
+            <div class="site-logo">
+                ZTJENITH
+                <span>GTA Online Chronicle</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="character.html">Character</a></li>
+                <li><a href="arsenal.html">Arsenal</a></li>
+                <li><a href="garage.html">Garage</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Image slider (requirement #6 - homepage banner) -->
+    <div class="slider-wrap">
+        <div class="slider-track">
+
+            <div class="slide">
+                <img src="images/gallery/shot1.jpg" alt="ZTJENITH in action in Los Santos">
+                <div class="slide-empty" style="display:none;">
+                    <span>🎮</span>
+                    Add images/gallery/shot1.jpg
+                </div>
+                <div class="slide-text">
+                    <strong>Welcome to Los Santos</strong>
+                    ZTJENITH — Rank 88 — Rainmaker
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="images/gallery/shot5.jpg" alt="ZTJENITH garage collection">
+                <div class="slide-empty" style="display:none;">
+                    <span>🚗</span>
+                    Add images/gallery/shot5.jpg
+                </div>
+                <div class="slide-text">
+                    <strong>The Garage</strong>
+                    583 vehicles stolen. These are the ones I kept.
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="images/gallery/shot9.jpg" alt="Los Santos skyline">
+                <div class="slide-empty" style="display:none;">
+                    <span>🌆</span>
+                    Add images/gallery/shot9.jpg
+                </div>
+                <div class="slide-text">
+                    <strong>Los Santos</strong>
+                    Grand Order 999 — Crew of One
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Prev/Next buttons -->
+        <button class="slider-prev" aria-label="Previous">&#8249;</button>
+        <button class="slider-next" aria-label="Next">&#8250;</button>
+
+        <!-- Dot indicators -->
+        <div class="slider-dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="hero-layout">
+
+            <!-- Left side: text content -->
+            <div>
+                <div class="hero-eyebrow">GTA Online — San Andreas</div>
+                <h1 class="hero-name">ZTJENITH</h1>
+                <p class="hero-subtitle">Title: Rainmaker</p>
+
+                <!-- Rank badge -->
+                <div class="rank-box">
+                    <div class="rank-number">88</div>
+                    <div class="rank-info">
+                        <p>Current Rank</p>
+                        <strong>1,300,000 RP</strong>
+                    </div>
+                </div>
+
+                <!-- Quick stat boxes -->
+                <div class="quick-stats">
+                    <div class="stat-box"><div class="num">1,778</div><div class="lbl">Kills</div></div>
+                    <div class="stat-box"><div class="num">$28.3M</div><div class="lbl">Earned</div></div>
+                    <div class="stat-box"><div class="num">73%</div><div class="lbl">Headshot %</div></div>
+                    <div class="stat-box"><div class="num">1,303</div><div class="lbl">Cops Killed</div></div>
+                    <div class="stat-box"><div class="num">583</div><div class="lbl">Cars Stolen</div></div>
+                    <div class="stat-box"><div class="num">6D 19H</div><div class="lbl">Playtime</div></div>
+                </div>
+
+                <!-- Call to action buttons -->
+                <div class="btn-row">
+                    <a href="character.html" class="btn btn-gold">View Profile</a>
+                    <a href="gallery.html" class="btn btn-outline">Gallery</a>
+                    <a href="contact.html" class="btn btn-red">Join Crew</a>
+                </div>
+            </div>
+
+            <!-- Right side: character mugshot -->
+            <div>
+                <div class="mugshot">
+                    <div class="mugshot-photo">
+                        <img src="images/character/mugshot.jpg" alt="ZTJENITH character screenshot" onerror="this.style.display='none'; document.getElementById('mugPh').style.display='flex';">
+                        <div id="mugPh" class="mugshot-placeholder" style="display:none;">
+                            <div class="big-z">Z</div>
+                            <p>Add your screenshot to<br>images/character/mugshot.jpg</p>
+                        </div>
+                    </div>
+                    <div class="mugshot-footer">
+                        <span>ID: ZTJENITH-88</span>
+                        <span class="date">LOS SANTOS 2026</span>
+                    </div>
+                    <div class="wanted-stars">★ ★ ★ ★ ★</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Stats section -->
+    <section class="section-dark">
+        <div class="container">
+            <div class="section-label">Criminal Overview</div>
+            <div class="section-title">By The Numbers</div>
+            <div class="divider"></div>
+
+            <div class="stats-grid">
+                <div class="stat-card"><div class="value">$1.73M</div><div class="label">Bank Balance</div></div>
+                <div class="stat-card red-stat"><div class="value">1,521</div><div class="label">Wanted Stars</div></div>
+                <div class="stat-card"><div class="value">16h 18m</div><div class="label">Time Wanted</div></div>
+                <div class="stat-card green-stat"><div class="value">1,300</div><div class="label">Headshots</div></div>
+                <div class="stat-card red-stat"><div class="value">20</div><div class="label">Store Holdups</div></div>
+                <div class="stat-card"><div class="value">$18.5M</div><div class="label">From Jobs</div></div>
+                <div class="stat-card"><div class="value">4h 29m</div><div class="label">Race Time</div></div>
+                <div class="stat-card red-stat"><div class="value">5 / 28</div><div class="label">Race W/L</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About + Explore section -->
+    <section class="section">
+        <div class="container">
+            <div class="two-col">
+
+                <!-- About -->
+                <div>
+                    <div class="section-label">About</div>
+                    <div class="section-title">Who Is ZTJENITH</div>
+                    <div class="divider"></div>
+                    <p style="color:#cccccc; line-height:1.9; font-size:16px; margin-bottom:16px;">
+                        ZTJENITH is my GTA Online character on PC. Currently Rank 88 with the title "Rainmaker". I've been playing for a while and these are my real in-game stats.
+                    </p>
+                    <p style="color:#aaaaaa; line-height:1.9; font-size:15px; margin-bottom:16px;">
+                        My main weapon is the Special Carbine MK II which I've used for most of my 1,778 kills — 1,300 of them were headshots which gives me a 73% headshot rate. Most of my kills were cops (1,303 of them).
+                    </p>
+                    <p style="color:#aaaaaa; line-height:1.9; font-size:15px; margin-bottom:28px;">
+                        I'm part of a crew called Grand Order 999. Total earned is $28.3M but I've also spent $28.4M so I'm technically in the negative. That's just how GTA works.
+                    </p>
+                    <a href="character.html" class="btn btn-gold">Full Profile</a>
+                </div>
+
+                <!-- Explore cards -->
+                <div>
+                    <div class="section-label">Explore</div>
+                    <div class="section-title">The Chronicle</div>
+                    <div class="divider"></div>
+
+                    <a href="character.html" class="explore-card">
+                        <span class="icon">👤</span>
+                        <div>
+                            <div class="card-title">Character Profile</div>
+                            <div class="card-sub">Full stats, skills, criminal record</div>
+                        </div>
+                    </a>
+                    <a href="arsenal.html" class="explore-card red-left">
+                        <span class="icon">🔫</span>
+                        <div>
+                            <div class="card-title">Arsenal</div>
+                            <div class="card-sub">Weapons, kills, headshot stats</div>
+                        </div>
+                    </a>
+                    <a href="garage.html" class="explore-card blue-left">
+                        <span class="icon">🚗</span>
+                        <div>
+                            <div class="card-title">Garage</div>
+                            <div class="card-sub">My vehicle collection</div>
+                        </div>
+                    </a>
+                    <a href="gallery.html" class="explore-card green-left">
+                        <span class="icon">📸</span>
+                        <div>
+                            <div class="card-title">Gallery</div>
+                            <div class="card-sub">Screenshots from Los Santos</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- External links section (requirements #15 and #16) -->
+    <section class="section-dark">
+        <div class="container">
+            <div class="section-label">Useful Links</div>
+            <div class="section-title">External Resources</div>
+            <div class="divider"></div>
+            <div class="btn-row">
+                <!-- target="_blank" opens links in a new window (requirement #16) -->
+                <a href="https://www.rockstargames.com/gta-v" target="_blank" class="btn btn-outline">Rockstar Games ↗</a>
+                <a href="https://socialclub.rockstargames.com" target="_blank" class="btn btn-outline">Social Club ↗</a>
+                <a href="https://gta.fandom.com" target="_blank" class="btn btn-outline">GTA Wiki ↗</a>
+                <a href="https://www.gtaforums.com" target="_blank" class="btn btn-outline">GTA Forums ↗</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secondary text navigation at bottom (requirement: secondary nav) -->
+    <div class="secondary-nav">
+        <a href="index.html">Home</a>
+        <a href="character.html">Character</a>
+        <a href="arsenal.html">Arsenal</a>
+        <a href="garage.html">Garage</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="sitemap.html">Sitemap</a>
+    </div>
+
+    <!-- Footer (requirement #11) -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="site-logo">ZTJENITH <span>GTA Online Chronicle</span></div>
+                <p>My personal GTA Online stats site. Rank 88, Rainmaker, Grand Order 999. Based in Los Santos, San Andreas.</p>
+                <!-- Email link (requirement #13) -->
+                <a href="mailto:contact@ztjenith.com" class="email-link">📧 contact@ztjenith.com</a>
+            </div>
+            <div class="footer-col">
+                <h4>Pages</h4>
+                <a href="index.html">Home</a>
+                <a href="character.html">Character</a>
+                <a href="arsenal.html">Arsenal</a>
+                <a href="garage.html">Garage</a>
+            </div>
+            <div class="footer-col">
+                <h4>More</h4>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+                <a href="sitemap.html">Sitemap</a>
+            </div>
+            <div class="footer-col">
+                <h4>External</h4>
+                <a href="https://rockstargames.com" target="_blank">Rockstar Games ↗</a>
+                <a href="https://socialclub.rockstargames.com" target="_blank">Social Club ↗</a>
+                <a href="https://gta.fandom.com" target="_blank">GTA Wiki ↗</a>
+                <a href="https://gtaforums.com" target="_blank">GTA Forums ↗</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 ZTJENITH | 123 Grove Street, Los Santos, San Andreas | This is a fan site - not affiliated with Rockstar Games</span>
+            <a href="mailto:contact@ztjenith.com" style="color:#444444;">contact@ztjenith.com</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
